@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yuktamedia.analytics:analytics:0.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab17f5daa1946b8893fec3a9d99281ba/jetified-analytics-0.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab17f5daa1946b8893fec3a9d99281ba/jetified-analytics-0.0.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yuktamedia.analytics/analytics/0.0.2/9dfcaecce5d170419b1d9c8d4355860a6993168f/analytics-0.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yuktamedia.analytics/analytics/0.0.2/a0195c154985dd87b87d48a7751fa1a27a64bdca/analytics-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

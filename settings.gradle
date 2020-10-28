@@ -1,0 +1,4 @@
+include ':analytics'
+include ':lib'
+include ':app'
+rootProject.name = "SDK_TEST"
