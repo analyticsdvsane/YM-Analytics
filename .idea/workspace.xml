@@ -9,13 +9,55 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33daf1d6-8836-4505-8253-79ecb50fe234" name="Default Changelist" comment="" />
+    <list default="true" id="33daf1d6-8836-4505-8253-79ecb50fe234" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/analytics/analytics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/analytics/analytics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/AdsDataCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Analytics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/AnalyticsActivityLifecycleCallbacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/AnalyticsContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/AnalyticsFragmentLifeCycleCallbacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/AnalyticsIntegration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/BooleanPreference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Cartographer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/ConnectionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Crypto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/GetAdvertisingIdTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/IntegrationOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Middleware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/MobsDataColletor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Options.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/PayloadQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/PlayerDataCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/ProjectSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/QueueFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/RealMiddlewareChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Stats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/StatsSnapshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/Traits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/ValueMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/AdsPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/AliasPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/BasePayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/GroupPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/IdentifyPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/Integration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/ScreenPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/TrackPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/internal/Iso8601Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/internal/Private.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/libs/internal/Utils.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_27" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="da33e21" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -37,6 +79,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1jBAvEz9nxq0Z5eplvx5K5sLtNE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -155,6 +198,10 @@
       <screen x="42" y="30" width="1324" height="738" />
     </state>
     <state width="1278" height="395" key="GridCell.Tab.0.right/42.30.1324.738@42.30.1324.738" timestamp="1603274750256" />
+    <state x="494" y="319" width="419" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603948180040">
+      <screen x="42" y="30" width="1324" height="738" />
+    </state>
+    <state x="494" y="319" width="419" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/42.30.1324.738@42.30.1324.738" timestamp="1603948180040" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
