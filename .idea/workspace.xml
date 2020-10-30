@@ -10,54 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33daf1d6-8836-4505-8253-79ecb50fe234" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/analytics/analytics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/analytics/analytics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sdk_test/SampleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/networkconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/AdsDataCollector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Analytics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/AnalyticsActivityLifecycleCallbacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/AnalyticsContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/AnalyticsFragmentLifeCycleCallbacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/AnalyticsIntegration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/BooleanPreference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Cartographer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/ConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Crypto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/GetAdvertisingIdTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/IntegrationOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Middleware.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/MobsDataColletor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Options.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/PayloadQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/PlayerDataCollector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/ProjectSettings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Properties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/QueueFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/RealMiddlewareChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Stats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/StatsSnapshot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/Traits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/ValueMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/AdsPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/AliasPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/BasePayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/GroupPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/IdentifyPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/Integration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/ScreenPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/integrations/TrackPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/internal/Iso8601Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/internal/Private.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics/libs/internal/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sdk_test/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sdk_test/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="da33e21" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -74,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -82,7 +65,9 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1jBAvEz9nxq0Z5eplvx5K5sLtNE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -90,6 +75,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Groovy" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Github_Analytics/analytics" />
@@ -99,6 +85,11 @@
   </component>
   <component name="PsdUISettings">
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.sdk_test" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -173,31 +164,72 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="SDK Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="SDK Files" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="224" y="134" width="950" height="533" key="#PSD" timestamp="1603271061220">
       <screen x="42" y="30" width="1324" height="738" />
     </state>
     <state x="224" y="134" width="950" height="533" key="#PSD/42.30.1324.738@42.30.1324.738" timestamp="1603271061220" />
+    <state x="285" y="157" width="824" height="487" key="AndroidCreateResourceDirectoryDialog" timestamp="1603972189157">
+      <screen x="39" y="30" width="1327" height="738" />
+    </state>
+    <state x="285" y="157" width="824" height="487" key="AndroidCreateResourceDirectoryDialog/39.30.1327.738@39.30.1327.738" timestamp="1603972189157" />
+    <state x="285" y="157" width="824" height="487" key="AndroidCreateResourceFileDialog" timestamp="1603972210645">
+      <screen x="39" y="30" width="1327" height="738" />
+    </state>
+    <state x="285" y="157" width="824" height="487" key="AndroidCreateResourceFileDialog/39.30.1327.738@39.30.1327.738" timestamp="1603972210645" />
+    <state x="352" y="30" width="693" height="738" key="CommitChangelistDialog2" timestamp="1603951810767">
+      <screen x="42" y="30" width="1324" height="738" />
+    </state>
+    <state x="352" y="30" width="693" height="738" key="CommitChangelistDialog2/42.30.1324.738@42.30.1324.738" timestamp="1603951810767" />
     <state x="482" y="144" width="424" height="515" key="FileChooserDialogImpl" timestamp="1603881233137">
       <screen x="42" y="30" width="1324" height="738" />
     </state>
     <state x="482" y="144" width="424" height="515" key="FileChooserDialogImpl/42.30.1324.738@42.30.1324.738" timestamp="1603881233137" />
-    <state width="1278" height="395" key="GridCell.Tab.0.bottom" timestamp="1603274750256">
+    <state width="1278" height="216" key="GridCell.Tab.0.bottom" timestamp="1603985036891">
       <screen x="42" y="30" width="1324" height="738" />
     </state>
-    <state width="1278" height="395" key="GridCell.Tab.0.bottom/42.30.1324.738@42.30.1324.738" timestamp="1603274750256" />
-    <state width="1278" height="395" key="GridCell.Tab.0.center" timestamp="1603274750255">
+    <state width="1281" height="216" key="GridCell.Tab.0.bottom/39.30.1327.738@39.30.1327.738" timestamp="1603973725592" />
+    <state width="1278" height="216" key="GridCell.Tab.0.bottom/42.30.1324.738@42.30.1324.738" timestamp="1603985036891" />
+    <state width="1278" height="216" key="GridCell.Tab.0.center" timestamp="1603985036889">
       <screen x="42" y="30" width="1324" height="738" />
     </state>
-    <state width="1278" height="395" key="GridCell.Tab.0.center/42.30.1324.738@42.30.1324.738" timestamp="1603274750255" />
-    <state width="1278" height="395" key="GridCell.Tab.0.left" timestamp="1603274750252">
+    <state width="1281" height="216" key="GridCell.Tab.0.center/39.30.1327.738@39.30.1327.738" timestamp="1603973725590" />
+    <state width="1278" height="216" key="GridCell.Tab.0.center/42.30.1324.738@42.30.1324.738" timestamp="1603985036889" />
+    <state width="1278" height="216" key="GridCell.Tab.0.left" timestamp="1603985036888">
       <screen x="42" y="30" width="1324" height="738" />
     </state>
-    <state width="1278" height="395" key="GridCell.Tab.0.left/42.30.1324.738@42.30.1324.738" timestamp="1603274750252" />
-    <state width="1278" height="395" key="GridCell.Tab.0.right" timestamp="1603274750256">
+    <state width="1281" height="216" key="GridCell.Tab.0.left/39.30.1327.738@39.30.1327.738" timestamp="1603973725589" />
+    <state width="1278" height="216" key="GridCell.Tab.0.left/42.30.1324.738@42.30.1324.738" timestamp="1603985036888" />
+    <state width="1278" height="216" key="GridCell.Tab.0.right" timestamp="1603985036890">
       <screen x="42" y="30" width="1324" height="738" />
     </state>
-    <state width="1278" height="395" key="GridCell.Tab.0.right/42.30.1324.738@42.30.1324.738" timestamp="1603274750256" />
+    <state width="1281" height="216" key="GridCell.Tab.0.right/39.30.1327.738@39.30.1327.738" timestamp="1603973725591" />
+    <state width="1278" height="216" key="GridCell.Tab.0.right/42.30.1324.738@42.30.1324.738" timestamp="1603985036890" />
+    <state width="1278" height="216" key="GridCell.Tab.1.bottom" timestamp="1603985036893">
+      <screen x="42" y="30" width="1324" height="738" />
+    </state>
+    <state width="1281" height="216" key="GridCell.Tab.1.bottom/39.30.1327.738@39.30.1327.738" timestamp="1603973697750" />
+    <state width="1278" height="216" key="GridCell.Tab.1.bottom/42.30.1324.738@42.30.1324.738" timestamp="1603985036893" />
+    <state width="1278" height="216" key="GridCell.Tab.1.center" timestamp="1603985036892">
+      <screen x="42" y="30" width="1324" height="738" />
+    </state>
+    <state width="1281" height="216" key="GridCell.Tab.1.center/39.30.1327.738@39.30.1327.738" timestamp="1603973697744" />
+    <state width="1278" height="216" key="GridCell.Tab.1.center/42.30.1324.738@42.30.1324.738" timestamp="1603985036892" />
+    <state width="1278" height="216" key="GridCell.Tab.1.left" timestamp="1603985036891">
+      <screen x="42" y="30" width="1324" height="738" />
+    </state>
+    <state width="1281" height="216" key="GridCell.Tab.1.left/39.30.1327.738@39.30.1327.738" timestamp="1603973697742" />
+    <state width="1278" height="216" key="GridCell.Tab.1.left/42.30.1324.738@42.30.1324.738" timestamp="1603985036891" />
+    <state width="1278" height="216" key="GridCell.Tab.1.right" timestamp="1603985036893">
+      <screen x="42" y="30" width="1324" height="738" />
+    </state>
+    <state width="1281" height="216" key="GridCell.Tab.1.right/39.30.1327.738@39.30.1327.738" timestamp="1603973697747" />
+    <state width="1278" height="216" key="GridCell.Tab.1.right/42.30.1324.738@42.30.1324.738" timestamp="1603985036893" />
     <state x="494" y="319" width="419" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603948180040">
       <screen x="42" y="30" width="1324" height="738" />
     </state>
@@ -210,6 +242,81 @@
           <url>file://$PROJECT_DIR$/app/build.gradle</url>
           <line>37</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sdk_test/MainActivity.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/analytics/src/main/java/com/yuktamedia/analytics/ConnectionFactory.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
