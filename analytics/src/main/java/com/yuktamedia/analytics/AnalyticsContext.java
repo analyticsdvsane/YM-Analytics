@@ -7,6 +7,9 @@ import android.app.usage.UsageStatsManager;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
@@ -17,6 +20,7 @@ import android.view.Display;
 import android.view.WindowManager;
 
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
 import com.google.ads.interactivemedia.v3.api.AdEvent;
@@ -45,7 +49,7 @@ import static com.yuktamedia.analytics.internal.Utils.isNullOrEmpty;
 import static com.yuktamedia.analytics.internal.Utils.isOnClassPath;
 import static java.util.Collections.unmodifiableMap;
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-public class AnalyticsContext extends ValueMap {
+public class AnalyticsContext extends ValueMap  {
 
     public Context context;
     private static final String LOCALE_KEY = "locale";
@@ -91,6 +95,7 @@ public class AnalyticsContext extends ValueMap {
     UsageStats usage = null;
 //    UsageStatsManager usageStats ;
 //     usageStats = new UsageStats();
+static LocationManager locationManager;
 
     AnalyticsContext(){
 
@@ -100,18 +105,19 @@ public class AnalyticsContext extends ValueMap {
      * Context}. The {@link Analytics} client can be called from anywhere, so the returned instances
      * is thread safe.
      */
+    @SuppressLint("MissingPermission")
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     static synchronized AnalyticsContext create(Context context, Traits traits, boolean collectDeviceId) {
         AnalyticsContext analyticsContext =
                 new AnalyticsContext(new Utils.NullableConcurrentHashMap<String, Object>());
-        analyticsContext.putApp(context);
         analyticsContext.setTraits(traits);
         analyticsContext.putDevice(context, collectDeviceId);
         analyticsContext.putLibrary();
         analyticsContext.put(LOCALE_KEY, Locale.getDefault().getLanguage() + "-" + Locale.getDefault().getCountry());
         analyticsContext.putNetwork(context);
         analyticsContext.putOs();
-        analyticsContext.location();
+
+
         analyticsContext.putScreen(context);
 //        analyticsContext.getAdsData();
         putUndefinedIfNull(analyticsContext, USER_AGENT_KEY, System.getProperty("http.agent"));
@@ -264,13 +270,13 @@ public class AnalyticsContext extends ValueMap {
     /** Fill this instance with library information. */
     void putLibrary() {
         Map<String, Object> library = createMap();
-        library.put(LIBRARY_NAME_KEY, "analytics-android");
+        library.put(LIBRARY_NAME_KEY, BuildConfig.LIBRARY_PACKAGE_NAME);
         library.put(LIBRARY_VERSION_KEY, BuildConfig.VERSION_NAME);
         put(LIBRARY_KEY, library);
     }
 
     /** Set location information about the device. */
-    public AnalyticsContext putLocation(Location location) {
+    public AnalyticsContext  putLocation(Location location) {
         return putValue(LOCATION_KEY, location);
     }
 
@@ -336,6 +342,8 @@ public class AnalyticsContext extends ValueMap {
         screen.put(SCREEN_WIDTH_KEY, displayMetrics.widthPixels);
         put(SCREEN_KEY, screen);
     }
+
+
 
 
 //    void putAdsData(AdsDataCollector adsDataCollector){
@@ -466,8 +474,10 @@ public class AnalyticsContext extends ValueMap {
         }
     }
 
+
+
     /** Information about the location of the device. */
-    public static class Location extends ValueMap {
+    public static class Location extends ValueMap implements LocationListener {
 
         private static final String LOCATION_LATITUDE_KEY = "latitude";
         private static final String LOCATION_LONGITUDE_KEY = "longitude";
@@ -512,6 +522,14 @@ public class AnalyticsContext extends ValueMap {
 
         public double speed() {
             return getDouble(LOCATION_SPEED_KEY, 0);
+        }
+
+        @Override
+        public void onLocationChanged(@NonNull android.location.Location location) {
+            double latitude = location.getLatitude();
+            double longitude = location.getLongitude();
+            putLatitude(latitude);
+            putLongitude(longitude);
         }
     }
 

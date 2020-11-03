@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.sdk_test"
-        minSdkVersion 26
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -20,6 +20,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 
@@ -31,8 +36,5 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     implementation 'com.google.android.gms:play-services-ads:19.1.0'
     implementation 'com.yuktamedia.analytics:analytics:0.0.2'
-
-
-
 }
 

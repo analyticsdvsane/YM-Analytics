@@ -16,7 +16,7 @@ public class ConnectionFactory {
 
     /** Return a {@link HttpURLConnection} that reads JSON formatted project settings. */
     public HttpURLConnection projectSettings(String writeKey) throws IOException {
-        return openConnection("http://172.104.30.246:8182/cdp/v1/projects/settings?key=" + writeKey);
+        return openConnection("https://analytics.yuktamedia.com/api/cdp/v1/projects/settings?key=" + writeKey);
     }
 
     /**
@@ -24,8 +24,7 @@ public class ConnectionFactory {
      * http://brand.yuktamedia.com/v1/import}.
      */
     public HttpURLConnection upload(String writeKey) throws IOException {
-//        HttpURLConnection connection = openConnection("https://analytics.yuktamedia.com/api/cdp/v1/datasync-android");
-        HttpURLConnection connection = openConnection("http://172.104.30.246:8182/cdp/v1/datasync-android");
+        HttpURLConnection connection = openConnection("https://analytics.yuktamedia.com/api/cdp/v1/datasync-android");
         connection.setRequestProperty("Authorization", authorizationHeader(writeKey));
         connection.setRequestProperty("Content-Encoding", "gzip");
         connection.setDoOutput(true);
@@ -39,8 +38,7 @@ public class ConnectionFactory {
      */
     public HttpURLConnection attribution(String writeKey) throws IOException {
         HttpURLConnection connection =
-//                openConnection("https://analytics.yuktamedia.com/api/cdp/v1/datasync-attibution");
-                openConnection("http://172.104.30.246:8182/cdp/v1/datasync-attibution");
+                openConnection("https://analytics.yuktamedia.com/api/cdp/v1/datasync-attibution");
         connection.setRequestProperty("Authorization", authorizationHeader(writeKey));
         connection.setRequestMethod("POST");
         connection.setDoOutput(true);

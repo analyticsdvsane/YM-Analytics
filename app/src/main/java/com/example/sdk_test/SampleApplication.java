@@ -10,6 +10,7 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.yuktamedia.analytics.Analytics;
+import com.yuktamedia.analytics.integrations.TrackPayload;
 
 public class SampleApplication extends Application {
     private static final String ANALYTICS_WRITE_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTg5OTgwMjg3LCJpc3MiOiJZdWt0YU1lZGlhIn0.NCMx4SH99b-mfaSfg7Rw4uPrkMYZm0ww6i7dS8VvvfE";
@@ -24,7 +25,6 @@ public class SampleApplication extends Application {
                        .trackAttributionInformation()
                         .logLevel(Analytics.LogLevel.VERBOSE)
                         .takeData()
-
                         .recordScreenViews();
         // Set the initialized instance as a globally accessible instance.
         Analytics.setSingletonInstance(builder.build());
@@ -39,5 +39,6 @@ public class SampleApplication extends Application {
                 Log.e("Admob Intialised","Intialised AdsMob" );
             }
         });
+
     }
 }
